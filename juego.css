@@ -1,0 +1,125 @@
+
+body {
+    background-image: url("./images/heart-2607178_1920.jpg");
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+    margin: 0;
+    font-family: monospace;
+
+}
+
+html, body, section {
+    height: 100%;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+
+  .container {
+    width: 800px;
+    max-width: 80%;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 0 10px 2px;
+    background-color: lightblue;
+  }
+  
+  .btn-grid {
+    display: block;
+   
+  }
+  
+  .btn {
+    --color: 200;
+    border: 1px solid hsl(var(--color), 100%, 30%);
+    background-color: hsl(var(--color), 100%, 50%);
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: white;
+    outline: none;
+    display: block;
+    width: 100%;
+    margin: 2px;
+  }
+  
+  .btn:hover {
+    border-color: black;
+  }
+  
+  .btn.correcto {
+    --color: 145;
+    color: black;
+    display: block;
+    width: 100%;
+    margin: 2px;
+  }
+  
+  .btn.error {
+    --color: 0;
+    display: block;
+    width: 100%;
+    margin: 2px;
+  }
+  
+  .boton-inicio, .boton-siguiente {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px 20px;
+  }
+  
+  .controles {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .ocultar {
+    display: none;
+  }
+
+  #pregunta{
+      font-size: larger;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  form{
+    width: 450px;
+    margin:auto;
+    background: rgba(0,0,0,0.4);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 7px;
+
+}
+  
+#boton{
+    background: red;
+    color:white;
+    padding:20px;
+}
+
+input,textarea, button{
+
+    width: 100%;
+    margin-top: 20px;
+    padding:7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border: none;
+
+}
+
+#errorMensaje, #errorCorreo,#errorTelefono,#errorNombre{ 
+    background:rgba(0,0,0,0.1);
+    color: coral;
+    }
+  
